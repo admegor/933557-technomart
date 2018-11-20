@@ -2,11 +2,93 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title></title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+    <header>
+      <p class="titel-shop">ТЕХНОМАРТ</p>
+      <div class="search">Поиск:
+      </div>
+      <div class="bookmarks">Закладки:0</div>
+      <!-- Закладки и корзину я хотел сделать вот так:
+      <p><div class="bookmarks">Закладки:</div>
+        <span class="bookmarks-number">0</span>
+      </p>       -->
+      <div class="cart">Корзина:0</div>
+      <a class="palce-order" href="#">Оформить заказ</a>
+      <a href="index.html"><h1>Интернет-магазин<br>
+строительных материалов<br>
+и инструментов для ремонта</h1></a>
+      <a class="main-phone" href="tel: +78125550555">+7 (812) 555-05-55</a>
+      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <ul class="user-navigation">
+        <li class="user-link">Войти</li>
+        <li class="user-registration">Регистрация</li>
+      </ul>
+      <ul class="site-navigation">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Компания</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </header>
+    <main class="container">
+      <!-- Основное содержимое которое не надо размечать -->
+      <section class="about-company">
+        <h2 class="visually-hidden">О нашей компании</h2>
+        <b>КОМПАНИЯ «Техномарт»</b>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со многими транспортными компаниями: </p>
+        <ul class="delivery-list">
+          <li class="delivery-item">Деловые линии</li>
+          <li class="delivery-item">Автотрейдинг</li>
+          <li class="delivery-item">ЖелДорЭкспедиция</li>
+        </ul>
+        <a class="button" href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+      </section>
+      <section class="contacts">
+        <h2>Контакты</h2>
+        <p>Вы можете забрать товар сами,<br>заехав в наш офис</p>
+        <!-- map -->
+        <a class="button" href="feedback.html">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p class="titel-shop">ТЕХНОМАРТ</p>
+      <p class="footer-contacts">. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55</p>
+      <nav class="footer-navigation-main">
+        <ul class="footer-navigation-main">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-navigation-secondary">
+        <ul class="footer-navigation-secondary">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">© 2010–2017 Компания «Техномарт»<br>
+                          Все права защищены</p>
+      <div class="footer-social">
+        <ul class="footer-socioal-buttons">
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <p class="feedback-footer">Обратная связь<br>
+      <a class="main-phone" href="mailto: mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+      <p class="developedby">Разработано —</p>
+      <a class="footer-devepoledby" href="htmlacademy.ru">htmlacademy.ru</a>
+    </footer>
+    </body>
 </html>
