@@ -1141,6 +1141,7 @@ input[type="radio"].visually-hidden {
 .footer-top {
   width: 100%;
   background-color: #32425c;
+
 }
 
 .footer-bottom {
@@ -1150,6 +1151,7 @@ input[type="radio"].visually-hidden {
 .footer-content {
   width: 960px;
   margin: 0 auto;
+  padding-bottom: 18px;
 }
 .footer-row-1,
 .footer-row-2 {
@@ -1206,12 +1208,13 @@ input[type="radio"].visually-hidden {
   color: #f1f5f7;
 }
 
+
 .footer-navigation-top a:hover,
-.footer-navigation-secondary {
+.footer-navigation-bottom a:hover {
   text-decoration: underline;
 }
 .footer-navigation-top a:active,
-.footer-navigation-secondary {
+.footer-navigation-bottom a:active  {
   opacity: 0.5;
   text-decoration: none;
 }
@@ -1239,4 +1242,125 @@ input[type="radio"].visually-hidden {
 }
 .footer-row-1 {
   padding-bottom: 15px;
+}
+.footer-row-2 {
+  padding-bottom: 13px;
+}
+.footer-bottom {
+  padding-top: 37px;
+}
+.footer-bottom-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.footer-bottom-flex {
+  display: flex;
+
+  justify-content: space-between;
+
+
+  margin: 0 10px;
+}
+
+.footer-bottom-flex p {
+  margin: 0;
+  padding: 0;
+}
+.copyright {
+  position: relative;
+}
+.copyright p {
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.footer-social {
+  position: relative;
+  margin-top: -2px;
+  left: 63px;
+}
+
+.footer-socioal-buttons li {
+  list-style: none;
+}
+.footer-socioal-buttons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.social-button {
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0 2px;
+  display: block;
+
+  width: 11px;
+  height: 11px;
+
+  background-color: #212a3a;
+}
+
+.vk svg {
+  position: relative;
+  top: -2px;
+  left: -7px;
+}
+
+.fb svg {
+  position: relative;
+  top: -5px;
+  left: 0px;
+}
+.instagram svg {
+  position: relative;
+  top: -5px;
+  left: -6px;
+}
+.social-button:hover,
+.social-buttons:active {
+  background-color: #ee3643;
+}
+.feedback-footer {
+  display: block;
+  position: relative;
+
+  width: 140px;
+  left: 50px;
+}
+.developed {
+  display: block;
+  position: relative;
+
+
+  width: 140px;
+  text-align: center;
+}
+.feedback-footer p,
+.developed p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.feedback-footer a,
+.developed a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffd180;
+}
+
+.feedback-footer a:hover,
+.developed a:hover {
+  text-decoration: underline;
+}
+.feedback-footer a:active,
+.developed a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+.feedback-footer p {
+
+
 }
